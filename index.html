@@ -13,20 +13,26 @@
             <h2 id="title">Developer</h2>
             </div>    
             <div class="images">
-                <img src="img/beard.jpg" id="beard">
                 <img src="img/hair1.png" id="hair">
+                <img src="img/beard.jpg" id="beard">
+                
                 <div class="aboutme">
-                    <div class="aboutme-header"><h2>About me</h2></div>
+                    <div class="aboutme" id="header"><h2>About me</h2></div>
                     <p id="aboutmecontent">Info about me</p>
                 </div>   
             </div>
             <div class="menu">
-                <button id="menu-btn">Menu</button>
-                <div class="menubar">
-                    <a href="" id="projects-link">Projects on page 2</a>
-                    <a href="" id="experience-link">Experience on page 3</a>
-                    <a href="" id="social-link">Social media on page 4</a>
-                </div>
+            <button onkeypress="{toggleTable()}" class="menu-toggle-btn">Menu</button>
+                <table class="tablemenubar">
+                    <thead>
+                        <tr></tr>
+                    </thead>
+                    <tbody class="table body">
+                        <th href="" id="projects-link">Projects on page 2</th>
+                        <th href="" id="experience-link">Experience on page 3</th>
+                        <th href="" id="social-link">Social media on page 4</th>
+                    </tbody>
+                </table>
             </div>
             <div class="contact"><p id="contact-me">Contact</p></div>
 
@@ -39,18 +45,36 @@
     </div>
     <div class="container page 2">
         <div class="header page2"><h2 id="projecttitle">Project work</h2></div>
-        <div class ="project box">
-            <div class= "project box1"></div>
-            <div class= "project box2"></div>
-            <div class= "project box3"></div>
-            <div class= "project box4"></div>
-            <div class= "project box5"></div>
-            <div class= "project box6"></div>
+        <div class ="projects">
+            <div class= "project project1">
+                <p>Project 1</p>
+                <a href="">link</a>
+            </div>
+            <div class= "project project2">
+                <p>Project 2</p>
+                <a href="">link</a>
+            </div>
+            <div class= "project project3">
+                <p>Project 3</p>
+                <a href="">link</a>
+            </div>
+            <div class= "project project4">
+                <p>Project 4</p>
+                <a href="">link</a>
+            </div>
+            <div class= "project project5">
+                <p>Project 5</p>
+                <a href="">link</a>
+            </div>
+            <div class= "project project6">
+                <p>Project 6</p>
+                <a href="">link</a>
+            </div>
 
         </div>
     </div>
     <div class="container page3">
-        
+
 
 
     </div>

@@ -5,11 +5,47 @@
 .container{
     display: flex;
     height: 100vh;
-    width: 1000px;
+    width: 100%;
+    background-color: rgba(207, 185, 137, 0.863);
+
 }
 
+
+
 .wrapper{
-    background-color: rgba(207, 185, 137, 0.863);
-    width: 1000px;
+    width: 100%;
     display: flex;
+    justify-content: space-evenly;
+}
+
+.menu{
+    order: 0;
+    align-self: center;
+    flex-direction: column;
+}
+
+.images{
+    order:1;
+    align-self: center;
+}
+
+#header{
+    order:1;
+}
+
+.name{
+    order:2;
+}
+
+.contact{
+    order:4;
+}
+
+.projects{
+    display:flex;
+
+}
+
+{
+
 }
