@@ -12,3 +12,17 @@ menu.addEventListener("click",()=>{
     }
 })
 
+const projects=document.querySelectorAll(".project");
+
+function toggleOpen(){
+    this.classList.toggle("open");
+}
+
+function toggleActive(e){
+    console.log(e.propertyName);
+    if(e.propertyName.includes("flex")){
+    this.classList.toggle("open-active");}
+}
+    
+projects.forEach(project=>project.addEventListener("click",toggleOpen));//equivalent of a loop,adding event listener to each item in projects and adding 'open' to class name when clicked (activating css)
+projects.forEach(project=>project.addEventListener("transitionend",toggleActive));//as above but looks for the end of the last transition - flex in this case- to then add openactive
