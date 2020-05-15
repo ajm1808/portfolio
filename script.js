@@ -12,6 +12,18 @@ menu.addEventListener("click",()=>{
     }
 })
 
+const aboutBTN=document.querySelector(".about-btn");
+const modalBg=document.querySelector(".modal-bg");
+const modClose=document.querySelector(".modal-close");
+
+aboutBTN.addEventListener("click",()=>{
+    modalBg.classList.add("bg-active");
+})
+
+modClose.addEventListener("click",()=>{
+    modalBg.classList.remove("bg-active");
+})
+
 const projects=document.querySelectorAll(".project");
 
 function toggleOpen(){
@@ -26,3 +38,5 @@ function toggleActive(e){
     
 projects.forEach(project=>project.addEventListener("click",toggleOpen));//equivalent of a loop,adding event listener to each item in projects and adding 'open' to class name when clicked (activating css)
 projects.forEach(project=>project.addEventListener("transitionend",toggleActive));//as above but looks for the end of the last transition - flex in this case- to then add openactive
+
+ 
