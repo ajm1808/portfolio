@@ -11,26 +11,28 @@
     height: 100vh;
     width: 100vw;
     background-color: rgba(174, 160, 149, 0.863);
-
+    
 }
 
 
 
 .wrapper{
     width: 100vw;
-    display: flex;
     justify-content: space-evenly;
+    position: relative;
+    
 }
 
 .menu{
-    order: 0;
-    align-self: center;
-    flex-direction: column;
+   justify-content: flex-end;
 }
 
 .images{
-    order:1;
+    
     align-self: center;
+    left:50%;
+    position: absolute;
+    top:50%;
 }
 .about-btn{
     background:none;
@@ -78,7 +80,7 @@
 }
 
 #header{
-    order:0;
+   
 }
 
 .name{
@@ -91,13 +93,11 @@
     color: whitesmoke;
 }
 
-.contact{
-    order:4;
-}
 
 .page2{
-    width:100vw;
-    display:flex;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
 }
 .projects{
     display:flex;   
