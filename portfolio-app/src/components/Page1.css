@@ -1,0 +1,53 @@
+
+.page1{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 100%;
+    grid-auto-flow: row;
+    
+}
+
+.navbar{
+    align-items:center;
+}
+
+.nb{
+    height:100%;
+   align-self: center;
+   padding-top: 10px;
+}
+
+.modal{
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+    top:0px;
+    left:0px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity:0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.bg-active{
+    visibility: visible;
+    opacity: 1;
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
+
+@media (prefers-reduced-motion: no-preference) {
+    .faceBtn{
+      animation: App-logo-spin infinite 20s linear;
+    }
+  } 

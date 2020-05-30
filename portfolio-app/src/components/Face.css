@@ -1,12 +1,24 @@
-.FaceIcon{
+.faceIcon{
     background-color: rgba(174, 160, 149, 0.863);
     ;
-    height:80vh;
-    padding-top: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.faceBtn{
+    display: flex;
+    align-items: center;
+    
 }
 .about-btn{
     padding:0;
     border:0;
     outline:none;
     background-color: rgba(174, 160, 149, 0.863);
+    align-self: center;
+
 }
+

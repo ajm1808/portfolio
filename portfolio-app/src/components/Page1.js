@@ -8,6 +8,7 @@ const Page1 =()=>{
         <div className="page1">
             <Navbar/>
             <Face/>
+            
         </div>
     )
 }
