@@ -4,10 +4,12 @@ import faceImg from '../img/fullface.png';
 
 const Face =()=>{
     return(
-        <div className="FaceIcon">
-            <button class="about-btn">
-                <img src={faceImg} id="face" alt="submit"/>
+        <div className="faceIcon">
+            <div className="faceBtn">
+                <button className="about-btn">
+                    <img src={faceImg} id="face" alt="submit"/>
                 </button>
+            </div>
         </div>
     )
 }

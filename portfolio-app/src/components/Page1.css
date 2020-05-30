@@ -1,0 +1,19 @@
+
+.page1{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 100%;
+    grid-auto-flow: row;
+    
+}
+
+.navbar{
+    align-items:center;
+}
+
+.nb{
+    height:100%;
+   align-self: center;
+   padding-top: 10px;
+}
+

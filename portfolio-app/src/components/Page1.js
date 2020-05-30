@@ -8,6 +8,17 @@ const Page1 =()=>{
         <div className="page1">
             <Navbar/>
             <Face/>
+            <div class="modal-bg">
+                    <div class="modal">
+                        <h2 id="header">About me</h2>
+                        <p id="aboutmecontent">
+                            Info about me
+                        </p>
+                        <span class="modal-close">
+                            X
+                        </span>
+                    </div>
+            </div>   
         </div>
     )
 }
