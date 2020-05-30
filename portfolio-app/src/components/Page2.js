@@ -3,7 +3,7 @@ import Home from '../img/home.png';
 import zen from '../img/zen.jpg';
 import dice from '../img/dice.jpg';
 import dog from '../img/dog.jpg';
-
+import Projects from './Projects';
 
 
 class Page2 extends Component{
@@ -35,16 +35,25 @@ class Page2 extends Component{
             },
         ]
     }
-    return(
-        
-                <div className= "project project5">
-                    <a href="">Experience</a>
-                    <a href=""><img src={Home} id="home"/></a>
-                    <a href="">Social media</a>
-                </div>
+    render(){
+        const eachProject = this.state.projects.map((projects, index) => {
+            return(
+                <Projects 
+                    index={index}
+                    name={projects.name}
+                    no={projects.no}
+                    link={projects.link}
+                    backgroundImg={projects.backgroundImg}
+                />
+
+            )
+        })
+        return(
+            <div className="Page2">
+                {eachProject}
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default Page2;
