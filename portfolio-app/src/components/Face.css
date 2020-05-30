@@ -1,0 +1,12 @@
+.FaceIcon{
+    background-color: rgba(174, 160, 149, 0.863);
+    ;
+    height:80vh;
+    padding-top: 5%;
+}
+.about-btn{
+    padding:0;
+    border:0;
+    outline:none;
+    background-color: rgba(174, 160, 149, 0.863);
+}
