@@ -6,8 +6,6 @@ import Page2 from './components/Page2';
 
 class App extends Component{
     render(){
-
-    
     return(
     <div className="App">
       <div className="page1">
