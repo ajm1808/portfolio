@@ -1,5 +1,7 @@
 .Page3{
     height: 100vh;
     width: 100vw;
-    background-color: rgba(174, 160, 149, 0.863);;
+    background-color: rgba(174, 160, 149, 0.863);
+    margin:0;
+    padding:0;
 }
