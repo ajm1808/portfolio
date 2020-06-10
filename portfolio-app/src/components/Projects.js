@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Projects.css';
 import git from '../img/git.png';
 import {CSSTransition} from 'react-transition-group';
 
 const Projects=()=>{
-    state={
-        isOpen:false
-    }
+    const [isOpen]=useState(false);
+    
     toggleOpen=()=>{
         this.setState({
             isOpen:!this.state.isOpen
