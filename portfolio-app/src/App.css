@@ -8,6 +8,13 @@
   width: 100vw;
 }
 
+.page3{
+  background-color: rgba(174, 160, 149, 0.863);
+  height: 100vh;
+  width: 100vw;
+}
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

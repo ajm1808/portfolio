@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navbar3{
+    background-color:rgb(122, 113, 101);
+    
+}
+
+.nb3{
+    display:flex;
+    justify-content: space-between;
+}
+
+#skills{
+    float: left;
+    padding-left: 10%;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+    margin:0;
+    color:antiquewhite;
+}
+#pg3l {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:60px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+  }
+
+.pg3list{
+    padding: 15px;
+    text-decoration: none;
+    color: antiquewhite;
+}

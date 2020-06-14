@@ -1,30 +1,14 @@
 import React, { useState } from 'react';
 import './Projects.css';
 import git from '../img/git.png';
-import {CSSTransition} from 'react-transition-group';
+import {motion} from 'framer-motion';
 
 const Projects=()=>{
-    const [isOpen]=useState(false);
     
-    toggleOpen=()=>{
-        this.setState({
-            isOpen:!this.state.isOpen
-        })
-    }
-
-    // toggleActive=(e)=>{
-    //     if(e.propertyName.includes("flex"));
-    //     this.setState({
-    //         active:!this.state.active
-    //     })
-    // }
+   
     return(
         <div className="projects">
-        <CSSTransition
-                in={isOpen}
-
-                timeout={500}
-                classNames="project">
+        
             <div className= "project project1">
                 <p>Zen Garden</p>
                 <p onClick={()=>this.toggleOpen}>Project 1</p>
@@ -51,7 +35,7 @@ const Projects=()=>{
                 <a href="">Social media</a>
             </div>
         
-        </CSSTransition>
+       
         </div>
     )
     }
