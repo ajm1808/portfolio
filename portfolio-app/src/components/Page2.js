@@ -7,7 +7,7 @@ import './Page2.css';
 
 const Page2 =()=>{
     return(
-        <div className="Page2">
+        <div className="page2">
             <Navbar2/>
             <FProjects/>
         </div>

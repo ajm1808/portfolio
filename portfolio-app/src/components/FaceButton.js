@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import ReactDOM from "react-dom";
 import faceImg from '../img/fullface.png';
 
 // const aboutBTN=document.querySelector(".about-btn");

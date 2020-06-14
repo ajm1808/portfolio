@@ -3,16 +3,16 @@ import './navbar.css';
 
 const Navbar=()=>{
     return(
-        <div className="navbar">
-            <div className="nb">
+        <div className="navbar1">
+            <div className="nb1">
                 <p id="name">
                 Andy Moore
                 </p>
-                <ul>
-                    <li><a href="#home" id="home">Home</a></li>
-                    <li><a href="#news" id="news">News</a></li>
-                    <li><a href="#contact" id="contact">Contact</a></li>
-                    <li><a href="#menu" id="menu">Menu</a></li>
+                <ul id="pg1l">
+                    <li><a className="pg1list" href="#home" id="home">Home</a></li>
+                    <li><a className="pg1list" href="#news" id="news">News</a></li>
+                    <li><a className="pg1list" href="#contact" id="contact">Contact</a></li>
+                    <li><a className="pg1list" href="#menu" id="menu">Menu</a></li>
                 </ul>
             </div>
         </div>

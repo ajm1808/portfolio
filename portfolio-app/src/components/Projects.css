@@ -23,6 +23,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
     transition: font-size 0.7s cubic-bezier(0.61,-0.19,0.7,-0.11),flex 0.7s cubic-bezier(0.61,-0.19,0.7,-0.11),background 0.2s;
+    border-radius: 10px;
 }
 
 .project>*{
@@ -36,10 +37,10 @@
 
 }
 
-.project>*:first-child{transform: translatey(-100%);}
+/* .project>*:first-child{transform: translatey(-100%);}
 .project.open-active>*:first-child{transform: translatey(0);}
 .project>*:last-child{transform: translatey(100%);}
-.project.open-active>*:last-child{transform: translatey(0);}
+.project.open-active>*:last-child{transform: translatey(0);} */
 
 .project1{
     background-image:url(https://wallpaperplay.com/walls/full/1/7/e/130981.jpg);

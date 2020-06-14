@@ -2,12 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-.navbar{
+.navbar1{
     background-color: rgb(122, 113, 101);
     
 }
 
-.nb{
+.nb1{
     display:flex;
     justify-content: space-between;
 }
@@ -21,7 +21,7 @@
     margin:0;
     color: antiquewhite;
 }
-ul {
+#pg1l {
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -32,7 +32,7 @@ ul {
     padding-right: 15px;
   }
 
-  a{
+.pg1list{
     padding: 15px;
     text-decoration: none;
     color: antiquewhite;

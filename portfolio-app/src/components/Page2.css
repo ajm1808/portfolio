@@ -1,13 +1,76 @@
-.Page2{
-    display:flex;
-    height:100vh;
-    width:100vw;
+
+.page2{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 100%;
+    grid-auto-flow: row;
     background-color: rgb(122, 113, 101);
-    position: relative;
+
+}
+
+.navbar2{
+    align-items:center;
+}
+
+.nb2{
+    height:100%;
+   align-self: center;
+   padding: 10px 0;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:100%;
     flex-direction: column;
 }
 
+#projList{
+    display: grid;
+    /* grid-template-rows: 25% 25% 25% 25%; */
+    grid-template-columns: 100%;
+    grid-auto-flow: row;
+    padding:0;
+    width:75%;
+    height:75%;
+    justify-content: space-evenly;
+}
 
+.listtitle{
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+    align-self: center;
+    align-content: center;
+    justify-content: space-evenly;
+    padding:0;
+}
 
+.project1{
+    background-image:url(https://wallpaperplay.com/walls/full/1/7/e/130981.jpg);
+}
 
+.project2{
+    background-image:url(https://us.123rf.com/450wm/maikikapetan25/maikikapetan251804/maikikapetan25180400016/99428541-dice-3d-model-high-resolution-3d-render.jpg?ver=6);
+}
 
+.project3{
+    background-image:url(https://www.cartoonmovement.com/depot/cartoons/2015/12/11/trumps_brain___pedro_x__molina.jpeg);
+    
+}
+
+#gitlogo{
+    padding:0px 15px;
+}
+
+#git{
+    height:50px;
+    width:50px;
+}
+
+#projectlinks{
+    text-decoration: none;
+    color: white;
+}
