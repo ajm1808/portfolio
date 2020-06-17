@@ -47,9 +47,11 @@ const Skills =()=>{
                 <div className="toprow">
                         On a rating of 1 to Mad...
                 </div>
-                <div className="score scorehtml">
+                <motion.div drag
+  dragConstraints={{ left: 0, right: 300 }}
+  dragElastic={0.2} className="score scorehtml">
                    <a id="s">40%</a>
-                </div>
+                </motion.div>
                 <div className="score scorecss">
                        <a id="s">50%</a>
                 </div>

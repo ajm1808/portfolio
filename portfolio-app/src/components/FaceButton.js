@@ -1,5 +1,6 @@
-import React,{Component} from 'react';
+import React from 'react';
 import faceImg from '../img/fullface.png';
+import {motion} from 'framer-motion';
 
 // const aboutBTN=document.querySelector(".about-btn");
 // const modalBg=document.querySelector(".modal-bg");
@@ -18,7 +19,7 @@ const FaceButton =()=> {
             <div className="faceBtn">
                 <div className="images">
                     <button class="about-btn">
-                        <img src={faceImg} id="face" alt="submit"/>
+                        <motion.img drag dragConstraints={{ left: 0, right: 300 }} dragElastic={0.2} src={faceImg} id="face" alt="submit"/>
                     </button>
                 </div>
                     <div class="modal-bg">
