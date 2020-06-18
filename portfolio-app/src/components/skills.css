@@ -41,7 +41,7 @@
 .scorecss {width: 50%; background-color: #2196F3;} 
 .scorejs {width: 30%; background-color: #f44336;} 
 .scorereact {width: 30%; background-color: #808080;} 
-.scorephoto{width:45%; background-color: teal;}
+.scorephoto{width:45%; background-color: rgb(31, 168, 168);}
 .scorenode{width:20%; background-color: yellowgreen; margin-bottom: 5px;}  
 
 #Icon{

@@ -58,11 +58,11 @@ const Skills =()=>{
                 <div className="score scorejs">
                        <a id="s">30%</a>
                 </div>
-                <div className="score scorereact">
-                        <a id="s">30%</a>
-                </div>
                 <div className="score scorephoto">
-                        <div id="s">45%</div>
+                        <a id="s">45%</a>
+                </div>
+                <div className="score scorereact">
+                        <div id="s">30%</div>
                 </div>
                 <div className="score scorenode">
                         <a id="s">20%</a>

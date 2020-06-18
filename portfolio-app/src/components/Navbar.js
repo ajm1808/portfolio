@@ -10,7 +10,7 @@ const Navbar=()=>{
                 </p>
                 <ul id="pg1l">
                     <li><a className="pg1list" href="#home" id="home">Home</a></li>
-                    <li><a className="pg1list" href="#news" id="news">News</a></li>
+                    <li><a className="pg1list" href="#news" id="news">About Me</a></li>
                     <li><a className="pg1list" href="#contact" id="contact">Contact</a></li>
                     <li><a className="pg1list" href="#menu" id="menu">Menu</a></li>
                 </ul>
